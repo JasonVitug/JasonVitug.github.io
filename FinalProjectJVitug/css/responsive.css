@@ -1,0 +1,99 @@
+@media (max-width: 1120px) {
+    .header_area {
+        height: auto;
+    }
+
+    .home_section {
+        padding: 30px 0;
+
+    }
+
+}
+
+@media (max-width: 992px) {
+    .custom_nav-container .nav_search-btn {
+        background-position: center;
+    }
+
+    .option_section .card-deck {
+
+        flex-direction: column;
+
+    }
+
+    .option_section .card-deck .card {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .home_img-box {
+
+        width: 100%;
+        margin: 20px auto;
+
+    }
+
+
+    .vehicle_section .vehicle_detail-box {
+
+        margin-bottom: 40px;
+        text-align: center;
+
+    }
+
+    .vehicle_detail-box>div {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .book_section {
+        background-size: 105px;
+    }
+
+    .book_section input {
+
+        background-color: transparent;
+
+    }
+
+    .info_section .col-md-3 {
+        text-align: center;
+    }
+
+    .info_section .col-md-3:not(:nth-last-child(1)) {
+
+        margin-bottom: 35px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .home_item-container .home_item-detail {
+
+        text-align: center;
+
+    }
+
+    .home_item-container .home_item-detail .d-flex {
+
+        justify-content: center;
+
+    }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 400px) {}
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+
+}
